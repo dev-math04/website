@@ -18,6 +18,10 @@ header {
     background: transparent;
 }
 
+main {
+    margin-top: 100px; /* Adjust this value to increase or decrease the space */
+}
+
 .navbar-brand {
     font-size: 2rem;
     font-weight: bold;
