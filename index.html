@@ -4,35 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interface Familiale</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-   </head>
+</head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#link1">Lien 1</a></li>
-                <li><a href="#link2">Lien 2</a></li>
-                <li><a href="#link3">Lien 3</a></li>
-                <li><a href="#link4">Lien 4</a></li>
-                <li><a href="#link5">Lien 5</a></li>
-            </ul>
+    <header class="bg-transparent">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Mon Site</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#link1">Lien 1</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#link2">Lien 2</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#link3">Lien 3</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#link4">Lien 4</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#link5">Lien 5</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
-    <main>
-        <div class="left">
-            <div class="button"><a href="#logo1"><img src="logo1.png" alt="Logo 1"></a></div>
-            <div class="button"><a href="#logo2"><img src="logo2.png" alt="Logo 2"></a></div>
-            <br>
-            <div class="button"><a href="#logo3"><img src="logo3.png" alt="Logo 3"></a></div>
-            <div class="button"><a href="#logo4"><img src="logo4.png" alt="Logo 4"></a></div>
-        </div>
-        <div class="right">
-            <div class="content">
-                <p>Contenu ici...</p>
+    <main class="container-fluid mt-5">
+        <div class="row">
+            <div class="col-md-9 d-flex flex-wrap justify-content-center align-items-center">
+                <div class="button m-2"><a href="#logo1"><img src="logo1.png" alt="Logo 1" class="img-fluid"></a></div>
+                <div class="button m-2"><a href="#logo2"><img src="logo2.png" alt="Logo 2" class="img-fluid"></a></div>
+                <div class="button m-2"><a href="#logo3"><img src="logo3.png" alt="Logo 3" class="img-fluid"></a></div>
+                <div class="button m-2"><a href="#logo4"><img src="logo4.png" alt="Logo 4" class="img-fluid"></a></div>
+            </div>
+            <div class="col-md-3 d-flex justify-content-center align-items-center">
+                <div class="content p-3 border rounded">
+                    <p>Contenu ici...</p>
+                </div>
             </div>
         </div>
     </main>
-    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
-
