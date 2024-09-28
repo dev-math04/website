@@ -18,9 +18,7 @@ header {
     background: transparent;
 }
 
-main {
-    margin-top: 1000px; /* Adjust this value to increase or decrease the space */
-}
+
 
 .navbar-brand {
     font-size: 2rem;
@@ -34,7 +32,7 @@ main {
 }
 
 .main {
-    margin-top: 80px; /* Adjust based on header height */
+    margin-top: 100px; /* Adjust based on header height */
 }
 
 .button img {
@@ -44,8 +42,8 @@ main {
 }
 
 .content {
-    width: 440px; /* Adjust based on button size */
-    height: 440px; /* Adjust based on button size */
+    width: 500px; /* Adjust based on button size */
+    height: 500px; /* Adjust based on button size */
     border: 2px solid #333;
     border-radius: 15px;
     background-color: #f0f0f0;
